@@ -11,12 +11,11 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'Hi, I’m Joao Vieira, a passionate full-stack developer specializing in creating user-focused applications with modern technologies like React, Flask, and SQLAlchemy. With a background in full-stack web development from Flatiron School, I thrive on solving complex problems and delivering clean, responsive designs. Lets connect and bring ideas to life!',
 	links: [
-		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
-		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'GitHub', href: 'https://github.com/levi-s2', icon: 'i-carbon-logo-github' },
+		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/john-collins-vieira/', icon: 'i-carbon-logo-linkedin' },
+		{ label: 'Email', href: 'mailto:john.collins.vieira@gmail.com', icon: 'i-carbon-at' }
 	]
 };
 
