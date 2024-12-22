@@ -10,7 +10,10 @@ const items: Array<Project> = [
 			'A CLI application built in Python that allows users to manage their virtual library. Users can add, arrange, and look up books by title, genre, and author.',
 		shortDescription:
 			'A Python CLI app for managing virtual libraries with features for organizing and searching by title, genre, and author.',
-		links: [{ to: 'https://github.com/levi-s2/Library-Manager', label: 'GitHub' }],
+			links: [
+				{ to: 'https://github.com/levi-s2/Library-Manager', label: 'GitHub' },
+				{ to: 'https://youtu.be/JIxYb9o-pmM', label: 'YouTube' }
+			],
 		logo: Assets.Unknown,
 		name: 'Library Manager',
 		period: {
@@ -27,7 +30,10 @@ const items: Array<Project> = [
 			'A full-stack web application for virtual book clubs. Built using Flask and React, it allows users to create and join clubs, manage book lists, and share profiles.',
 		shortDescription:
 			'A Flask and React web app for managing virtual book clubs with features for creating clubs, managing book lists, and sharing user profiles.',
-		links: [{ to: 'https://github.com/levi-s2/book-club', label: 'GitHub' }],
+			links: [
+				{ to: 'https://github.com/levi-s2/book-club', label: 'GitHub' },
+				{ to: 'https://youtu.be/_FLw_J9lM6A', label: 'YouTube' }
+			],
 		logo: Assets.Unknown,
 		name: 'Book Club Platform',
 		period: {

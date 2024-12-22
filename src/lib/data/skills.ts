@@ -89,6 +89,33 @@ const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'python',
+		color: 'blue',
+		description:
+			'Python is a versatile programming language known for its simplicity and readability. It is widely used for web development, data analysis, artificial intelligence, scientific computing, and more.',
+		logo: Assets.Python,
+		name: 'Python',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'flask',
+		color: 'green',
+		description:
+			'Flask is a lightweight and flexible micro-framework for web development in Python. It is ideal for building small to medium-sized web applications with minimal overhead.',
+		logo: Assets.Flask,
+		name: 'Flask',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'sqlalchemy',
+		color: 'purple',
+		description:
+			'SQLAlchemy is a Python SQL toolkit and Object-Relational Mapping (ORM) library. It provides a full suite of tools for database interaction and management.',
+		logo: Assets.SQLAlchemy,
+		name: 'SQLAlchemy',
+		category: 'orm'
+	}),
+	defineSkill({
 		slug: 'ts',
 		color: 'blue',
 		description:
@@ -116,15 +143,6 @@ const items = [
 		category: 'markup-style'
 	}),
 	defineSkill({
-		slug: 'sass',
-		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass',
-		category: 'markup-style'
-	}),
-	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
 		description:
@@ -132,16 +150,9 @@ const items = [
 		logo: Assets.ReactJs,
 		name: 'React Js',
 		category: 'library'
-	}),
-	defineSkill({
-		slug: 'svelte',
-		color: 'orange',
-		description: svelteMd,
-		logo: Assets.Svelte,
-		name: 'Svelte',
-		category: 'library'
 	})
 ] as const;
+
 
 const SkillsData = {
 	title,
